@@ -3,12 +3,10 @@ package com.sandro.service;
 import com.sandro.DTO.BookRequestDTO;
 import com.sandro.model.Book;
 import com.sandro.repository.BookRepository;
-import io.quarkus.hibernate.orm.panache.PanacheQuery;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.NotFoundException;
 
-import java.net.URI;
 import java.util.List;
 
 @ApplicationScoped
